@@ -1,0 +1,64 @@
+body{
+   background-color: black;
+}
+h1{
+    color: #f3d421;
+    background: url("../images/cyberpunk-gif.gif");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+strong{
+    color:#f3d421;
+}
+U{
+    color: #f3d421;
+}
+.neon{
+    font-weight: 400;
+    font-size: 3.4em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f3d421;
+    text-shadow: 0 0 5px #f3d421,
+    0 0 10px #f3d421,
+    0 0 20px #f3d421,
+    0 0 40px #f3d421,
+    0 0 80px #f3d421,
+    0 0 90px #f3d421,
+    0 0 100px #f3d421,
+    0 0 150px #f3d421;
+}
+.neon span {
+    animation: flicker 5000ms linear;
+    animation-iteration-count: infinite;
+}
+.neon .delay1{
+    animation-delay: 0.8s;
+}
+.neon .delay2{
+    animation-delay: 1.4s;
+}
+@keyframes flicker{
+    0% {opacity: 1;}
+    10% {opacity: 1;}
+    12% {opacity: 0;}
+    14% {opacity: 1}
+    16%{opacity: 0}
+    18%{opacity: 1}
+    20% {opacity: 0}
+    21%{opacity: 1}
+    40% {opacity: 1;}
+    43%{opacity: 1}
+    46%{opacity: 1}
+    50% {opacity: 1;}
+    60% {opacity: 1;}
+    70%{opacity: 1}
+    80% {opacity: 1;}
+    100% {opacity: 1;}
+}
+button{
+    color: #f3d421;
+}
